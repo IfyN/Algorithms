@@ -9,9 +9,7 @@ function largestOfFour(arr) {
         currentLargestNumber = currentNumber;
       }
     }
-    // console.log (currentLargestNumber);
     LargeNumberArr.push(currentLargestNumber);
-    // console.log ( LargeNumberArr);
   }
   return LargeNumberArr
 }
